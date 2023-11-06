@@ -22,7 +22,6 @@
 
 .div {
     width: 350px;
-    /* flex: 100%; */
     text-align: center;
     margin-left: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -37,14 +36,8 @@
     padding: 10px 30px 10px 30px;
     border: 1px solid;
     font-size: medium;
-    color: rgb(38, 102, 185);
-    background-color: rgb(210, 217, 227);
 }
 
 .button:hover {
     cursor: pointer;
-}
-
-.div h3 {
-    color: rgb(38, 102, 185);
 }

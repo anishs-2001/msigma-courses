@@ -13,9 +13,14 @@ request.then((response) => response.json())
             const applyButton = document.createElement("button");
             applyButton.classList.add("button");
     
+            const colorList = ["red", "blue", "orange", "green", "violet"];
+            const diffColor = colorList[Math.floor(Math.random() * colorList.length)];
+
             h3.textContent = data.branches[i].short;
+            h3.style.color = diffColor;
             p1.textContent = data.branches[i].name;
             applyButton.textContent = "Apply Now";
+            applyButton.style.color = diffColor;
             p2.textContent = "Fee starting at ₹799 per subject";
     
             div.appendChild(h3);
